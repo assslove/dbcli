@@ -1,0 +1,12 @@
+package db_proto;
+
+message MLimit
+{
+	required uint32 type = 1;
+	required uint32 value = 2;
+}
+
+message MLimitlist 
+{
+	repeated MLimit limit = 1;
+}

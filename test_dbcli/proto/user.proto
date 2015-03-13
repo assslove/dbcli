@@ -1,0 +1,10 @@
+package db_proto;
+
+message MUser 
+{
+	required uint32 userid = 1;
+	required string name = 2;
+	optional uint32 score = 3;
+}
+
+
